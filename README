@@ -1,0 +1,15 @@
+Computes 2PT Entropy. If you use these scripts please cite DOI: 10.1021/ja206839u
+
+To install requires: 
+- Gromacs 4.0.5 with shared libraries (see https://github.com/GromPy/GromPy for how to get a proper Gromacs installation). 
+  A modified grompy is packaged with the script thus grompy does not have to be installed
+- Scipy
+- cython
+- Mathematica
+
+To install: 
+python setup.py
+
+To run:
+- python auto_corr3.py
+- Then open these files in Mathematica
